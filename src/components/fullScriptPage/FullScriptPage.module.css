@@ -1,0 +1,48 @@
+.body {
+    padding: 16px;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+
+.cancel {
+    cursor: pointer;
+    width: 64px;
+    height: 32px;
+    background-color: white;
+}
+
+.text {
+    width: fit-content;
+}
+
+.text_wrapper {
+    display: flex;
+    gap: 384px;
+}
+
+.text_row {
+    width: calc(100% - 150px);
+    display: flex;
+    justify-content: space-between;
+}
+
+.text_column {
+    height: 548px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.text_wrap {
+    height: 548px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.count_wrapper {
+    display: flex;
+    justify-content: space-between;
+}
