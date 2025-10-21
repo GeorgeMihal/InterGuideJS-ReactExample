@@ -3,6 +3,8 @@ import {  type TabsProps, Tabs } from 'antd';
 import "../../InterGuideJS/dist/interguidejs.esm.css"
 import FullScriptPage from './components/fullScriptPage/FullScriptPage';
 import CardsPage from './components/cardsPage/CardsPage';
+import FormPage from './components/formPage/FormPage';
+import ListPage from './components/listPage/ListPage';
 
 
 const items: TabsProps['items'] = [
@@ -18,8 +20,13 @@ const items: TabsProps['items'] = [
   },
   {
     key: '3',
-    label: 'Tab 3',
-    children: 'Content of Tab Pane 3',
+    label: 'Форма',
+    children: <FormPage />,
+  },
+  {
+    key: '4',
+    label: 'Списки',
+    children: <ListPage />,
   },
 ];
 
