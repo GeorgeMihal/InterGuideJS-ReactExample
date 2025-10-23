@@ -31,9 +31,12 @@ function ListPage() {
   };
 
   const onChange: TransferProps['onChange'] = (nextTargetKeys) => {
+    console.log(nextTargetKeys);
     setTargetKeys(nextTargetKeys);
     setSubmittable(!!nextTargetKeys.length);
   };
+
+  console.log(submittable);
 
   return (
     <div className={s.body} id="l-body">

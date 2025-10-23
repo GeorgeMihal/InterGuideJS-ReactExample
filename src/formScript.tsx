@@ -69,7 +69,7 @@ const finalCard = (wrapper: HTMLElement, cancel?: () => void) => {
 
 const selectors = [
   "[data-guide-id='submit']:not([disabled])",
-  "[data-name='Jule']",
+  "[data-name='Julia']",
   "[data-result='done']",
 ];
 

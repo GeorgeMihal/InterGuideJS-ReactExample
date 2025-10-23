@@ -87,7 +87,7 @@ export const guide: Guide = {
           cardRender: (wrapper, control) => card2(wrapper, control),
           selector: "[data-guide-id='submit2']",
           direction: 'bottomRight',
-          requiredElements: ["[data-guide-id='submit']:not([disabled])"],
+          requiredElements: ["[data-guide-id='submit2']:not([disabled])"],
         },
       ],
     },
