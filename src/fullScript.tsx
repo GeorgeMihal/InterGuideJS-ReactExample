@@ -479,9 +479,7 @@ export const guide: Guide = {
     render: finalCard,
     position: { top: 'calc(50vh - 39px)', left: 'calc(50vw - 112px)' },
   },
-  decorations: [
-    { render: decoration, position: { top: '24px', left: 'calc(50vw - 135px)' } },
-  ],
+  decorations: [{ render: decoration, position: { top: '24px', left: 'calc(50vw - 135px)' } }],
   loadingElement: {
     render: spin,
     position: { top: 'calc(50vh - 20px)', left: 'calc(50vw - 20px)' },
@@ -530,6 +528,7 @@ export const guide: Guide = {
           cardRender: card4,
           selector: "[data-guide-id='test4']",
           direction: 'bottomRight',
+          subPoints: ["[data-guide-id='subtest1']", "[data-guide-id='subtest2']"],
         },
       ],
       nextButton: true,

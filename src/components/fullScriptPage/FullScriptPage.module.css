@@ -17,6 +17,11 @@
     width: fit-content;
 }
 
+.subtext {
+    background-color: white;
+    width: fit-content;
+}
+
 .text_wrapper {
     display: flex;
     gap: 384px;
